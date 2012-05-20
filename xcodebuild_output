@@ -1,0 +1,43 @@
+Build settings from command line:
+    CODE_SIGN_IDENTITY = iPhone Distribution: KT Hitel Co., Ltd.
+
+=== BUILD NATIVE TARGET helloworld OF PROJECT helloworld WITH THE DEFAULT CONFIGURATION (Release) ===
+Check dependencies
+
+ProcessProductPackaging "/Users/nanhap/Library/MobileDevice/Provisioning Profiles/helloworld.mobileprovision" build/Release-iphoneos/helloworld.app/embedded.mobileprovision
+    cd /Users/nanhap/Desktop/helloworld
+    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/pgsql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/usr/local/sbin:/Users/nanhap/.rvm/bin:/Users/nanhap/dev-tools/bin"
+    builtin-productPackagingUtility "/Users/nanhap/Library/MobileDevice/Provisioning Profiles/helloworld.mobileprovision" -o /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/embedded.mobileprovision
+
+ProcessProductPackaging "/Users/nanhap/Library/MobileDevice/Provisioning Profiles/helloworld.mobileprovision" build/Release-iphoneos/helloworld.app/embedded.mobileprovision
+    cd /Users/nanhap/Desktop/helloworld
+    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/pgsql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/usr/local/sbin:/Users/nanhap/.rvm/bin:/Users/nanhap/dev-tools/bin"
+    builtin-productPackagingUtility "/Users/nanhap/Library/MobileDevice/Provisioning Profiles/helloworld.mobileprovision" -o /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/embedded.mobileprovision
+
+Touch build/Release-iphoneos/helloworld.app
+    cd /Users/nanhap/Desktop/helloworld
+    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/pgsql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/usr/local/sbin:/Users/nanhap/.rvm/bin:/Users/nanhap/dev-tools/bin"
+    /usr/bin/touch -c /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app
+
+CodeSign build/Release-iphoneos/helloworld.app
+    cd /Users/nanhap/Desktop/helloworld
+    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate
+    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/pgsql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/usr/local/sbin:/Users/nanhap/.rvm/bin:/Users/nanhap/dev-tools/bin"
+    /usr/bin/codesign --force --sign "iPhone Distribution: KT Hitel Co., Ltd." --resource-rules=/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/ResourceRules.plist --entitlements /Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/helloworld.xcent /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app
+/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app: replacing existing signature
+
+Validate build/Release-iphoneos/helloworld.app
+    cd /Users/nanhap/Desktop/helloworld
+    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/pgsql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/usr/local/sbin:/Users/nanhap/.rvm/bin:/Users/nanhap/dev-tools/bin"
+    setenv PRODUCT_TYPE com.apple.product-type.application
+    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app
+warning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)
+Unable to validate your application. - (null)
+
+warning: iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)
+Unable to validate your application. - (null)
+
+
+
+** BUILD SUCCEEDED **
+

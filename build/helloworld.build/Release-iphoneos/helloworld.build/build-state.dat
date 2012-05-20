@@ -1,0 +1,333 @@
+Thelloworld
+v4
+r1
+cCheck dependencies
+cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Release-iphoneos/helloworld.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/Info.plist helloworld/helloworld-Info.plist
+cProcessPCH /var/folders/kc/6clf637n2yl92_p7w3rzg4b40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloworld-Prefix-bfdqdwutxhosjlbukvugxlyfugoc/helloworld-Prefix.pch.pth helloworld/helloworld-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/main.o /Users/nanhap/Desktop/helloworld/helloworld/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/ViewController.o /Users/nanhap/Desktop/helloworld/helloworld/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/AppDelegate.o /Users/nanhap/Desktop/helloworld/helloworld/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/helloworld normal armv7
+cGenerateDSYMFile /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app.dSYM /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/helloworld
+cCopyStringsFile /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/en.lproj/InfoPlist.strings helloworld/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/nanhap/Desktop/helloworld/helloworld/en.lproj/MainStoryboard_iPhone.storyboard
+cCompileStoryboard /Users/nanhap/Desktop/helloworld/helloworld/en.lproj/MainStoryboard_iPad.storyboard
+cProcessProductPackaging "/Users/nanhap/Library/MobileDevice/Provisioning Profiles/helloworld.mobileprovision" /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/nanhap/Library/MobileDevice/Provisioning Profiles/helloworld.mobileprovision" /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/embedded.mobileprovision
+cTouch /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/helloworld.xcent
+cCodeSign /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app
+cValidate /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+c000000004E7840290000000000000110
+t1316503593
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+c000000004E5C595800000000000001A7
+t1314675032
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+c000000004E5C595800000000000001E5
+t1314675032
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F28700000000003AB0A0
+t1316156039
+s3846304
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F3440000000000529540
+t1316156228
+s5412160
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7808C7000000000078BE50
+t1316489415
+s7913040
+
+N/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app
+t1337520295
+s306
+
+N/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app.dSYM
+t1337520295
+s102
+
+N/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/Info.plist
+t1337351398
+s1313
+
+N/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/PkgInfo
+t1337351398
+s8
+
+N/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/ResourceRules.plist
+t1337351398
+s485
+
+N/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/embedded.mobileprovision
+t1337519793
+s7216
+
+N/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/en.lproj/InfoPlist.strings
+t1337351399
+s42
+
+N/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/en.lproj/MainStoryboard_iPad.storyboardc
+t1337351399
+s170
+
+N/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t1337351399
+s170
+
+N/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/helloworld
+t1337520295
+s23632
+
+N/Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/AppDelegate.o
+t1337351398
+s45864
+
+N/Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/ViewController.o
+t1337351398
+s41312
+
+N/Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/helloworld.LinkFileList
+c000000004FB65CE60000000000000173
+t1337351398
+s371
+
+N/Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/main.o
+t1337351398
+s2980
+
+N/Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/helloworld.xcent
+t1337351399
+s419
+
+N/Users/nanhap/Desktop/helloworld/helloworld/AppDelegate.h
+c000000004FB652BB000000000000012B
+t1337348795
+s299
+
+N/Users/nanhap/Desktop/helloworld/helloworld/AppDelegate.m
+c000000004FB652BB0000000000000853
+t1337348795
+s2131
+
+N/Users/nanhap/Desktop/helloworld/helloworld/ViewController.h
+c000000004FB652BB00000000000000ED
+t1337348795
+s237
+
+N/Users/nanhap/Desktop/helloworld/helloworld/ViewController.m
+c000000004FB652BB0000000000000535
+t1337348795
+s1333
+
+N/Users/nanhap/Desktop/helloworld/helloworld/en.lproj/InfoPlist.strings
+c000000004FB652BB000000000000002D
+t1337348795
+s45
+
+N/Users/nanhap/Desktop/helloworld/helloworld/en.lproj/MainStoryboard_iPad.storyboard
+c000000004FB652BB0000000000000645
+t1337348795
+s1605
+
+N/Users/nanhap/Desktop/helloworld/helloworld/en.lproj/MainStoryboard_iPhone.storyboard
+c000000004FB652BB000000000000061C
+t1337348795
+s1564
+
+N/Users/nanhap/Desktop/helloworld/helloworld/helloworld-Prefix.pch
+c000000004FB652BB0000000000000143
+t1337348795
+s323
+
+N/Users/nanhap/Desktop/helloworld/helloworld/main.m
+c000000004FB652BB0000000000000166
+t1337348795
+s358
+
+N/Users/nanhap/Library/MobileDevice/Provisioning Profiles/helloworld.mobileprovision
+c000000004FB8F27F0000000000001C30
+t1337520767
+s7216
+
+N/var/folders/kc/6clf637n2yl92_p7w3rzg4b40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloworld-Prefix-bfdqdwutxhosjlbukvugxlyfugoc/helloworld-Prefix.pch.pth
+t1337351315
+s3854316
+
+Nhelloworld/helloworld-Info.plist
+c000000004FB652BB000000000000066F
+t1337348795
+s1647
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesfed2d6ff2969b541^e57bfeff2969b541^---0#1#0#--18"Check dependencies36"80491033-552B-417D-8BB2-B43601A7144B-
+
+CCodeSign /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app
+s359213568.105750
+e359213568.267117
+r1
+xCodeSign
+x/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app
+o/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app: replacing existing signature
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"CodeSign build/Release-iphoneos/helloworld.appf33d1b002a69b541^fa6144002a69b541^-101"/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app: replacing existing signature-0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/0000000000000000^882"CodeSign build/Release-iphoneos/helloworld.app    cd /Users/nanhap/Desktop/helloworld    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/pgsql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/usr/local/sbin:/Users/nanhap/.rvm/bin:/Users/nanhap/dev-tools/bin"    /usr/bin/codesign --force --sign "iPhone Distribution: KT Hitel Co., Ltd." --resource-rules=/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/ResourceRules.plist --entitlements /Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/helloworld.xcent /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app36"E0FB6960-A1B9-47E5-8D97-F06A8788CFEA-
+
+CCompileC build/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/AppDelegate.o /Users/nanhap/Desktop/helloworld/helloworld/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359044198.921700
+e359044198.989760
+r1
+xCompileC
+xbuild/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/AppDelegate.o
+x/Users/nanhap/Desktop/helloworld/helloworld/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/nanhap/Desktop/helloworld/helloworld/AppDelegate.m992aec669466b541^d960fd669466b541^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/nanhap/Desktop/helloworld/helloworld/AppDelegate.m0000000000000000^2706"CompileC build/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/AppDelegate.o helloworld/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nanhap/Desktop/helloworld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/pgsql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/usr/local/sbin:/Users/nanhap/.rvm/bin:/Users/nanhap/dev-tools/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/helloworld-generated-files.hmap -I/Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/helloworld-own-target-headers.hmap -I/Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/helloworld-all-target-headers.hmap -iquote /Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/helloworld-project-headers.hmap -I/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/include -I/Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/DerivedSources/armv7 -I/Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/DerivedSources -F/Users/nanhap/Desktop/helloworld/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/kc/6clf637n2yl92_p7w3rzg4b40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloworld-Prefix-bfdqdwutxhosjlbukvugxlyfugoc/helloworld-Prefix.pch -MMD -MT dependencies -MF /Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/AppDelegate.d -c /Users/nanhap/Desktop/helloworld/helloworld/AppDelegate.m -o /Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/AppDelegate.o36"0EFC6552-41B8-42C5-AF7F-A408855B4882-
+
+CCompileC build/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/ViewController.o /Users/nanhap/Desktop/helloworld/helloworld/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359044198.921702
+e359044198.987886
+r1
+xCompileC
+xbuild/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/ViewController.o
+x/Users/nanhap/Desktop/helloworld/helloworld/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/nanhap/Desktop/helloworld/helloworld/ViewController.m7423ec669466b541^b0e6fc669466b541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/nanhap/Desktop/helloworld/helloworld/ViewController.m0000000000000000^2721"CompileC build/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/ViewController.o helloworld/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nanhap/Desktop/helloworld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/pgsql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/usr/local/sbin:/Users/nanhap/.rvm/bin:/Users/nanhap/dev-tools/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/helloworld-generated-files.hmap -I/Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/helloworld-own-target-headers.hmap -I/Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/helloworld-all-target-headers.hmap -iquote /Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/helloworld-project-headers.hmap -I/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/include -I/Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/DerivedSources/armv7 -I/Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/DerivedSources -F/Users/nanhap/Desktop/helloworld/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/kc/6clf637n2yl92_p7w3rzg4b40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloworld-Prefix-bfdqdwutxhosjlbukvugxlyfugoc/helloworld-Prefix.pch -MMD -MT dependencies -MF /Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/ViewController.d -c /Users/nanhap/Desktop/helloworld/helloworld/ViewController.m -o /Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/ViewController.o36"09088444-C0C3-4A95-9D28-E40504CE5F29-
+
+CCompileC build/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/main.o /Users/nanhap/Desktop/helloworld/helloworld/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359044198.921540
+e359044198.955433
+r1
+xCompileC
+xbuild/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/main.o
+x/Users/nanhap/Desktop/helloworld/helloworld/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/nanhap/Desktop/helloworld/helloworld/main.m2c28ec669466b541^4297f4669466b541^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/nanhap/Desktop/helloworld/helloworld/main.m0000000000000000^2671"CompileC build/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/main.o helloworld/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nanhap/Desktop/helloworld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/pgsql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/usr/local/sbin:/Users/nanhap/.rvm/bin:/Users/nanhap/dev-tools/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/helloworld-generated-files.hmap -I/Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/helloworld-own-target-headers.hmap -I/Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/helloworld-all-target-headers.hmap -iquote /Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/helloworld-project-headers.hmap -I/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/include -I/Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/DerivedSources/armv7 -I/Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/DerivedSources -F/Users/nanhap/Desktop/helloworld/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/kc/6clf637n2yl92_p7w3rzg4b40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloworld-Prefix-bfdqdwutxhosjlbukvugxlyfugoc/helloworld-Prefix.pch -MMD -MT dependencies -MF /Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/main.d -c /Users/nanhap/Desktop/helloworld/helloworld/main.m -o /Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/main.o36"5A0D79D8-CF25-4E0D-A61D-1533DE9F5F36-
+
+CCompileStoryboard /Users/nanhap/Desktop/helloworld/helloworld/en.lproj/MainStoryboard_iPad.storyboard
+s359044199.055631
+e359044199.354788
+r1
+xCompileStoryboard
+x/Users/nanhap/Desktop/helloworld/helloworld/en.lproj/MainStoryboard_iPad.storyboard
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"CompileStoryboard helloworld/en.lproj/MainStoryboard_iPad.storyboardab5e0e679466b541^fad35a679466b541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/nanhap/Desktop/helloworld/helloworld/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^906"CompileStoryboard helloworld/en.lproj/MainStoryboard_iPad.storyboard    cd /Users/nanhap/Desktop/helloworld    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/pgsql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/usr/local/sbin:/Users/nanhap/.rvm/bin:/Users/nanhap/dev-tools/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/en.lproj/MainStoryboard_iPad.storyboardc /Users/nanhap/Desktop/helloworld/helloworld/en.lproj/MainStoryboard_iPad.storyboard --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"87A9312A-77B9-432C-A372-3AF2B2123F8B-
+
+CCompileStoryboard /Users/nanhap/Desktop/helloworld/helloworld/en.lproj/MainStoryboard_iPhone.storyboard
+s359044199.055640
+e359044199.354983
+r1
+xCompileStoryboard
+x/Users/nanhap/Desktop/helloworld/helloworld/en.lproj/MainStoryboard_iPhone.storyboard
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"CompileStoryboard helloworld/en.lproj/MainStoryboard_iPhone.storyboardc4600e679466b541^86e25a679466b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/nanhap/Desktop/helloworld/helloworld/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^912"CompileStoryboard helloworld/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/nanhap/Desktop/helloworld    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/pgsql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/usr/local/sbin:/Users/nanhap/.rvm/bin:/Users/nanhap/dev-tools/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/nanhap/Desktop/helloworld/helloworld/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"5A0FDF0D-77C5-48DD-99B0-C5B334AB4967-
+
+CCopyStringsFile /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/en.lproj/InfoPlist.strings helloworld/en.lproj/InfoPlist.strings
+s359044199.055633
+e359044199.059594
+r1
+xCopyStringsFile
+x/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/en.lproj/InfoPlist.strings
+xhelloworld/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy helloworld/en.lproj/InfoPlist.strings3a590e679466b541^9e410f679466b541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/nanhap/Desktop/helloworld/helloworld/en.lproj/InfoPlist.strings0000000000000000^681"CopyStringsFile build/Release-iphoneos/helloworld.app/en.lproj/InfoPlist.strings helloworld/en.lproj/InfoPlist.strings    cd /Users/nanhap/Desktop/helloworld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/pgsql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/usr/local/sbin:/Users/nanhap/.rvm/bin:/Users/nanhap/dev-tools/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/en.lproj -- helloworld/en.lproj/InfoPlist.strings36"02D56D73-C1A2-464A-9611-599C54F28440-
+
+CCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Release-iphoneos/helloworld.app/ResourceRules.plist
+s359044198.900080
+e359044198.906248
+r1
+xCpResource
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/helloworld.app/ResourceRules.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Release-iphoneos/helloworld.app/ResourceRules.plist4391e6669466b541^deffe7669466b541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/ResourceRules.plist00f4d834ddffdf42^804"CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Release-iphoneos/helloworld.app/ResourceRules.plist    cd /Users/nanhap/Desktop/helloworld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/pgsql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/usr/local/sbin:/Users/nanhap/.rvm/bin:/Users/nanhap/dev-tools/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app36"48BE8A1F-F62F-41B9-99C6-4BCF9587ADDD-
+
+CGenerateDSYMFile /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app.dSYM /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/helloworld
+s359213094.992451
+e359213095.017164
+r1
+xGenerateDSYMFile
+x/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app.dSYM
+x/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/helloworld
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Generating /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app.dSYM5a65fe262869b541^bf6304272869b541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app.dSYM/0000000000000000^653"GenerateDSYMFile build/Release-iphoneos/helloworld.app.dSYM build/Release-iphoneos/helloworld.app/helloworld    cd /Users/nanhap/Desktop/helloworld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/pgsql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/usr/local/sbin:/Users/nanhap/.rvm/bin:/Users/nanhap/dev-tools/bin"    /Developer/usr/bin/dsymutil /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/helloworld -o /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app.dSYM36"E86FB64A-9E10-4033-8B34-1BC2164F65FF-
+
+CLd /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/helloworld normal armv7
+s359044198.997456
+e359044199.021597
+r1
+xLd
+x/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/helloworld
+xnormal
+xarmv7
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Link /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/helloworlde97dff669466b541^948705679466b541^---0#0#0#--1076"Ld build/Release-iphoneos/helloworld.app/helloworld normal armv7    cd /Users/nanhap/Desktop/helloworld    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/pgsql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/usr/local/sbin:/Users/nanhap/.rvm/bin:/Users/nanhap/dev-tools/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/nanhap/Desktop/helloworld/build/Release-iphoneos -F/Users/nanhap/Desktop/helloworld/build/Release-iphoneos -filelist /Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/Objects-normal/armv7/helloworld.LinkFileList -dead_strip -fobjc-arc -miphoneos-version-min=5.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/helloworld36"714F685A-B37F-4929-B196-8470B04CF255-
+
+CProcessInfoPlistFile /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/Info.plist helloworld/helloworld-Info.plist
+s359044198.900078
+e359044198.904786
+r1
+xProcessInfoPlistFile
+x/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/Info.plist
+xhelloworld/helloworld-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process helloworld/helloworld-Info.plist8a90e6669466b541^999fe7669466b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/nanhap/Desktop/helloworld/helloworld/helloworld-Info.plist0000000000000000^857"ProcessInfoPlistFile build/Release-iphoneos/helloworld.app/Info.plist helloworld/helloworld-Info.plist    cd /Users/nanhap/Desktop/helloworld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/pgsql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/usr/local/sbin:/Users/nanhap/.rvm/bin:/Users/nanhap/dev-tools/bin"    builtin-infoPlistUtility helloworld/helloworld-Info.plist -genpkginfo /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/ResourceRules.plist -o /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/Info.plist36"7CF2C77A-B873-400E-93C7-2EF70BDB4555-
+
+CProcessPCH /var/folders/kc/6clf637n2yl92_p7w3rzg4b40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloworld-Prefix-bfdqdwutxhosjlbukvugxlyfugoc/helloworld-Prefix.pch.pth helloworld/helloworld-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessProductPackaging "/Users/nanhap/Library/MobileDevice/Provisioning Profiles/helloworld.mobileprovision" /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/embedded.mobileprovision
+s359213568.065822
+e359213568.070317
+r1
+xProcessProductPackaging
+x/Users/nanhap/Library/MobileDevice/Provisioning Profiles/helloworld.mobileprovision
+x/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/embedded.mobileprovision
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection172"ProcessProductPackaging "/Users/nanhap/Library/MobileDevice/Provisioning Profiles/helloworld.mobileprovision" build/Release-iphoneos/helloworld.app/embedded.mobileprovision6c0511002a69b541^f8ff11002a69b541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/embedded.mobileprovision0000000000000000^745"ProcessProductPackaging "/Users/nanhap/Library/MobileDevice/Provisioning Profiles/helloworld.mobileprovision" build/Release-iphoneos/helloworld.app/embedded.mobileprovision    cd /Users/nanhap/Desktop/helloworld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/pgsql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/usr/local/sbin:/Users/nanhap/.rvm/bin:/Users/nanhap/dev-tools/bin"    builtin-productPackagingUtility "/Users/nanhap/Library/MobileDevice/Provisioning Profiles/helloworld.mobileprovision" -o /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/embedded.mobileprovision36"9F600982-7931-4165-97F0-A70966CA67C6-
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/helloworld.xcent
+s359044199.439752
+e359044199.446041
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+x/Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/helloworld.xcent
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection186"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/helloworld.build/Release-iphoneos/helloworld.build/helloworld.xcent8db470679466b541^933972679466b541^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/helloworld.xcent00f4d834ddffdf42^799"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/helloworld.build/Release-iphoneos/helloworld.build/helloworld.xcent    cd /Users/nanhap/Desktop/helloworld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/pgsql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/usr/local/sbin:/Users/nanhap/.rvm/bin:/Users/nanhap/dev-tools/bin"    builtin-productPackagingUtility /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/nanhap/Desktop/helloworld/build/helloworld.build/Release-iphoneos/helloworld.build/helloworld.xcent36"DA9DC22E-4F00-4107-BDA9-29F9F706691F-
+
+CTouch /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app
+s359213568.079626
+e359213568.088727
+r1
+xTouch
+x/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Touch /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.appcc9a14002a69b541^feb716002a69b541^---0#0#0#--488"Touch build/Release-iphoneos/helloworld.app    cd /Users/nanhap/Desktop/helloworld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/pgsql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/usr/local/sbin:/Users/nanhap/.rvm/bin:/Users/nanhap/dev-tools/bin"    /usr/bin/touch -c /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app36"A39F33A6-AA60-4B2F-B87C-CF07050F9BAF-
+
+CValidate /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app
+s359213568.275234
+e359213568.433092
+r1
+xValidate
+x/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)
+oUnable to validate your application. - (null)
+o
+owarning: iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)
+oUnable to validate your application. - (null)
+o
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Validate build/Release-iphoneos/helloworld.app1a8b46002a69b541^a4df6e002a69b541^-506"warning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)Unable to validate your application. - (null)warning: iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)Unable to validate your application. - (null)2(21%IDEActivityLogMessage2@202" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)192"IPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57359213568#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---2@192" iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)182"IPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72359213568#18446744073709551615#0#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@87"file://localhost/Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app/0000000000000000^600"Validate build/Release-iphoneos/helloworld.app    cd /Users/nanhap/Desktop/helloworld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/pgsql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/usr/local/sbin:/Users/nanhap/.rvm/bin:/Users/nanhap/dev-tools/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/nanhap/Desktop/helloworld/build/Release-iphoneos/helloworld.app36"5195E79B-4725-41FB-A13A-CDC8698B9843-
+
